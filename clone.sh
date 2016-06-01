@@ -58,8 +58,8 @@ main() {
   FULL_PATH=`pwd`/*.vmx
   VMID=`vim-cmd solo/registervm $FULL_PATH`
 
-  # Power on the machine.
-  vim-cmd vmsvc/power.on $VMID
+  # Power on the machine. commented
+  #vim-cmd vmsvc/power.on $VMID
 }
 
 main
